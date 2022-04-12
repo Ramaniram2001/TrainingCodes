@@ -8,19 +8,22 @@ public class HashMapApplication {
 		
 		Student ram=new Student(102,"ram",68);
 		Student shyam=new Student(103,"shyam",78);
-		Student mukesh=new Student(103,"mukesh",789);
+		Student mukesh=new Student(105,"mukesh",789);
 		
 		
 		HashMap<Integer,Student> map=new HashMap<>();
-		
-		map.put(900,ram);
-		map.put(902,shyam);
-		
-		System.out.println(map.get(902));
-		
-		System.out.println(map.put(900, ram));
-		System.out.println(map.put(900, mukesh));
 	
+	System.out.println(map.put(901, ram));
+	 System.out.println(map.put(902, mukesh));
+//		Student added=map.put(902, mukesh);
+//		if(added!=null) {
+//			map.put(904, added);
+//		}
+	   
+        System.out.println(map.put(902, shyam));
+        System.out.println("87877"+map.get(902));
+       // System.out.println(map.get(904));
+
 
 	}
 
