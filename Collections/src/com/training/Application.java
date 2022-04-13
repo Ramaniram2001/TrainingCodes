@@ -10,9 +10,12 @@ import com.training.services.BookService;
 public class Application {
 public static void print(List<Book> books) {
 	 
-	for(Book eachBook: books) {
-		System.out.println(eachBook);
-	}
+//	for(Book eachBook: books) {
+//		System.out.println(eachBook);
+//	}
+	//the above is also used or the below one is method reference 
+	//which is from functional interfaces
+	books.forEach(System.out::println);
 	
 }
 	public static void main(String[] args) {
@@ -59,7 +62,7 @@ service.add(react);
 print(service.findAll());
 Book reactNew= new Book(108, "reactjs", "hprasada", 16000);
 service.update(react,reactNew);
-System.out.println("=========================================================");
+System.out.println("========================");
 print(service.findAll());
 
 

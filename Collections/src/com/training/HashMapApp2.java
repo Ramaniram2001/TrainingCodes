@@ -41,7 +41,7 @@ public class HashMapApp2 {
 		
 		//in order to get both keys and values 
 		//map is converted into set
-		//which can be seen in below first line as Set ,,,,,,,,,,,,, map.entrySet
+		//which can be seen in below first line as Set ,,,,,,,,,,,,, map
 		Set<Map.Entry<Integer,Student>> list2=map.entrySet();
 		for(Map.Entry<Integer,Student> eachEntry:list2) {
 			System.out.println(eachEntry.getKey());
@@ -51,5 +51,6 @@ public class HashMapApp2 {
 		System.out.println("****************************************");
 
 	}
+	
 
 }

@@ -60,6 +60,7 @@ public class BookService implements CrudRepository {
 	      }
 	    
 		return newBook;
+		
 	}
 
 }
