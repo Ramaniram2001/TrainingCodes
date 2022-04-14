@@ -1,5 +1,6 @@
 package com.training;
 
+import java.io.ObjectInputStream.GetField;
 import java.util.List;
 
 import com.training.ifaces.CrudRepository;
@@ -28,14 +29,18 @@ Book python = new Book(105, "Python", "Sathya", 850);
 
 CrudRepository service = new BookService();
 
+
+List<Book> bookList=((BookService)service).getBooksGrtThan(400);
+System.out.println("^^^^^^^^^^^^");
+bookList.forEach(System.out::println);
 System.out.println("is Added:=" +service.add(java));
 System.out.println("is Added:=" +service.add(Maven));
 System.out.println("is Added:=" +service.add(Spring));
 System.out.println("is Added:=" +service.add(html));
 System.out.println("is Added:=" +service.add(python));
 
-List<Book> bookList = service.findAll();
-for(Book eachbook : bookList) {
+List<Book> bookList1 = service.findAll();
+for(Book eachbook : bookList1) {
 	System.out.println(eachbook);
 	System.out.println(eachbook.getBookNumber());
 	System.out.println(eachbook.getBookName());
@@ -64,6 +69,7 @@ Book reactNew= new Book(108, "reactjs", "hprasada", 16000);
 service.update(react,reactNew);
 System.out.println("========================");
 print(service.findAll());
+
 
 
 

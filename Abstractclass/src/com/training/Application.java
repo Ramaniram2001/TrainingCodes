@@ -5,6 +5,7 @@ public class Application {
 	public static void printPremium(Insurance object) {
 		System.out.println("premium is "+ object.calculatePremium());
 		
+		
 	}
 
 	public static void main(String[] args) {
