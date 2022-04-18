@@ -35,7 +35,7 @@ public abstract class Insurance {
 	
 	//calculatePremium is a abstract method which is to be
 	//applicable and implemented in all the subclasses
-	public  abstract double calculatePremium();
+	public abstract double calculatePremium();
 	
 	
 	
