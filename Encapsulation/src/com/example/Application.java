@@ -24,6 +24,7 @@ public class Application {
 		System.out.println("first name is " +ram.getFirstName());
 		System.out.println("branch is "+ram.getBranch());
 		Student shyam = new Student(490,"shyam",77,"mech");
+		System.out.println(shyam.getBranch());
 		System.out.println("roll number is " +shyam.getRollNumber());
 		Student magesh = new Student(77, "ram", "ece");
 		System.out.println("Student Name : "+magesh.getMarkScored());
