@@ -5,7 +5,9 @@ import com.training.ifaces.Function;
 import com.training.services.CurrencyConverter;
 
 public class Application {
-
+	
+	
+	
 	public static void main(String[] args) {
 		Function conv=new CurrencyConverter();
 		double response=conv.apply(200);
@@ -21,6 +23,8 @@ public class Application {
 		Conditional condObj =new DiscountCalculator();
 		System.out.println(condObj.test(6000));
 		System.out.println(condObj.test(6000));
+		
+
 		
 		
 		
