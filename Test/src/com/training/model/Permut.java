@@ -6,7 +6,7 @@ public class Permut {
 	{
 		if(name.length()==0) {
 			System.out.println(out+" ");
-			return;
+	
 		}
 			
 		
