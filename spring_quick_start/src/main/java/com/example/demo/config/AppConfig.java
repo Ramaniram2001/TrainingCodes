@@ -2,6 +2,7 @@ package com.example.demo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 import com.example.demo.model.Customer;
 import com.example.demo.model.Product;
@@ -18,6 +19,7 @@ public class AppConfig {
 	public Student ram() {
 		return new Student(101,"Ramesh",89);//creating the object
 	}
+	
 	
 	@Bean
 	public Teacher harish() {

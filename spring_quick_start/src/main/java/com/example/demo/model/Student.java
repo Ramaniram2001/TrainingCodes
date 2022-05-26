@@ -1,5 +1,7 @@
 package com.example.demo.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,6 +17,9 @@ public class Student {
 	int rollNumber;
 	String studentName;
 	double markScored;
+	
+	
+	
 	
 
 }

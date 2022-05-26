@@ -68,6 +68,7 @@ public static void trail() {
 		//method 1 to get the output of bean of same method
 		System.out.println("Author : "+ctx.getBean("haripriya",Author.class));//using getBean(".....",....)to get the bean of same type
 		
+	
 	}
 	@Bean
 	public Author haripriya() {
