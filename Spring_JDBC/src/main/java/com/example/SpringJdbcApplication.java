@@ -22,14 +22,14 @@ public class SpringJdbcApplication {
 	
 		//System.out.println("Row Added : = "+repo.add(lipstick));
 	
-		//repo.findAll().forEach(System.out::println);
+		repo.findAll().forEach(System.out::println);
 		//repo.findById(12);
 		
-	System.out.println(repo.findById(56));
+	//System.out.println(repo.findById(56));
 	
 	
-	Product t=ctx.getBean(Product.class);
-	System.out.println("one row updated: "+ repo.update(t));
+	//Product t=ctx.getBean(Product.class);
+	//System.out.println("one row updated: "+ repo.update(t));
 
 	
 	
