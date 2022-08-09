@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Cab_Driver_Service_Client
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Haripriya.R
+Implementation-Vendor-Id: com.example
+Build-Jdk: 1.8.0_121
+Implementation-URL: https://spring.io/projects/spring-boot/Cab_Driver_
+ Service_Client
+Created-By: Maven Integration for Eclipse
+
